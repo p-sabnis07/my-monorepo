@@ -1,0 +1,19 @@
+{
+    "name": "@my-monorepo/web-app",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+
+    "scripts": {
+        "start": "parcel src/index.html --open",
+        "build": "parcel build src/index.html"
+    },
+    "devDependencies": {
+        "@my-monorepo/ui-library": "1.0.0",
+        "parcel": "^2.10.2"
+    },
+    "dependencies": {
+        "snabbdom": "^3.5.1",
+        "@my-monorepo/ui-library": "1.0.0",
+        "@parcel/bundler-default": "^2.10.2"
+    }
+}
